@@ -8,11 +8,7 @@ import pages.SearchResultsPage;
 import utils.BaseTest;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import java.time.Duration;
-import java.util.ArrayList;
+
 import java.util.List;
 
 public class SearchTest extends BaseTest {
@@ -28,7 +24,7 @@ public class SearchTest extends BaseTest {
     }
 
     @Test(dataProvider = "searchKeywords")
-    public void testSearchFunctionality(String keyword) {
+    public void testSearchFunctionality(String keyword) throws InterruptedException {
         logger.info("=== Starting search test for keyword: " + keyword + " ===");
 
         HomePage homePage = new HomePage(driver);
@@ -38,17 +34,19 @@ public class SearchTest extends BaseTest {
         homePage.search(keyword);
         logger.info("Search performed for: " + keyword);
 
-        // Capture search results
-        List<String> results = searchResultsPage.getTopSearchResults(1); // Fetch at least one result
+        // Capture search results (fetch top 2 results)
+        List<String> results = searchResultsPage.getTopSearchResults(2); 
 
         if (results.isEmpty()) {
             logger.error("❌ No search results found for keyword: " + keyword);
         } else {
-            logger.info("✅ Search result found: " + results.get(0));
+            logger.info("✅ First Search Result: " + results.get(0));
+            if (results.size() > 1) {
+                logger.info("✅ Second Search Result: " + results.get(1));
+            }
         }
 
         // Assert that at least one result is found
         Assert.assertFalse(results.isEmpty(), "❌ No search results found for keyword: " + keyword);
     }
-
 }
