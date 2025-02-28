@@ -1,0 +1,103 @@
+2025-02-28 11:48:06 [main] INFO  tests.SearchTest - Starting search test for keyword: mobile
+2025-02-28 11:48:12 [main] INFO  tests.SearchTest - Starting search test for keyword: python
+2025-02-28 11:48:18 [main] INFO  tests.SearchTest - Starting search test for keyword: job
+2025-02-28 11:51:32 [main] INFO  tests.SearchTest - Starting search test for keyword: mobile
+2025-02-28 11:51:33 [main] INFO  tests.SearchTest - Search performed for: mobile
+2025-02-28 11:51:35 [main] INFO  tests.SearchTest - Search Results for 'mobile': [Edumpus Accommodation, Hospital Booking, Edumpus Learning]
+2025-02-28 11:51:35 [main] ERROR tests.SearchTest - Search results are not relevant for keyword: mobile
+2025-02-28 11:51:40 [main] INFO  tests.SearchTest - Starting search test for keyword: python
+2025-02-28 11:51:41 [main] INFO  tests.SearchTest - Search performed for: python
+2025-02-28 11:51:43 [main] INFO  tests.SearchTest - Search Results for 'python': [Sr. Software Developer - Python Django, Python Django Developer Intern]
+2025-02-28 11:51:43 [main] INFO  tests.SearchTest - Test passed for keyword: python
+2025-02-28 11:51:48 [main] INFO  tests.SearchTest - Starting search test for keyword: job
+2025-02-28 11:51:49 [main] INFO  tests.SearchTest - Search performed for: job
+2025-02-28 11:51:51 [main] INFO  tests.SearchTest - Search Results for 'job': [Xcruit, Taskde, Xcruit]
+2025-02-28 11:51:51 [main] ERROR tests.SearchTest - Search results are not relevant for keyword: job
+2025-02-28 11:57:56 [main] INFO  tests.SearchTest - Starting search test for keyword: mobile
+2025-02-28 11:57:56 [main] INFO  tests.SearchTest - Search performed for: mobile
+2025-02-28 11:57:58 [main] INFO  tests.SearchTest - Search Results for 'mobile': [Edumpus Accommodation, Hospital Booking, Edumpus Learning]
+2025-02-28 11:57:58 [main] ERROR tests.SearchTest - Search results are not relevant for keyword: mobile
+2025-02-28 11:58:04 [main] INFO  tests.SearchTest - Starting search test for keyword: python
+2025-02-28 11:58:04 [main] INFO  tests.SearchTest - Search performed for: python
+2025-02-28 11:58:06 [main] INFO  tests.SearchTest - Search Results for 'python': [Sr. Software Developer - Python Django, Python Django Developer Intern]
+2025-02-28 11:58:06 [main] INFO  tests.SearchTest - Test passed for keyword: python
+2025-02-28 11:58:12 [main] INFO  tests.SearchTest - Starting search test for keyword: job
+2025-02-28 11:58:12 [main] INFO  tests.SearchTest - Search performed for: job
+2025-02-28 11:58:14 [main] INFO  tests.SearchTest - Search Results for 'job': [Xcruit, Taskde, Xcruit]
+2025-02-28 11:58:14 [main] ERROR tests.SearchTest - Search results are not relevant for keyword: job
+2025-02-28 12:03:40 [main] INFO  tests.SearchTest - Starting search test for keyword: mobile
+2025-02-28 12:03:43 [main] INFO  tests.SearchTest - Search performed for: mobile
+2025-02-28 12:03:43 [main] INFO  tests.SearchTest - Search Results for 'mobile': [Edumpus Accommodation, Hospital Booking, Edumpus Learning]
+2025-02-28 12:03:43 [main] ERROR tests.SearchTest - Search results are not relevant for keyword: mobile
+2025-02-28 12:03:47 [main] INFO  tests.SearchTest - Starting search test for keyword: python
+2025-02-28 12:03:50 [main] INFO  tests.SearchTest - Search performed for: python
+2025-02-28 12:03:50 [main] INFO  tests.SearchTest - Search Results for 'python': [Sr. Software Developer - Python Django, Python Django Developer Intern]
+2025-02-28 12:03:50 [main] INFO  tests.SearchTest - Test passed for keyword: python
+2025-02-28 12:03:54 [main] INFO  tests.SearchTest - Starting search test for keyword: job
+2025-02-28 12:03:56 [main] INFO  tests.SearchTest - Search performed for: job
+2025-02-28 12:03:56 [main] INFO  tests.SearchTest - Search Results for 'job': [Xcruit, Taskde, Xcruit]
+2025-02-28 12:03:56 [main] ERROR tests.SearchTest - Search results are not relevant for keyword: job
+2025-02-28 12:05:35 [main] INFO  tests.SearchTest - Starting search test for keyword: mobile
+2025-02-28 12:05:38 [main] INFO  tests.SearchTest - Search performed for: mobile
+2025-02-28 12:05:38 [main] INFO  tests.SearchTest - Search Results for 'mobile': [Edumpus Accommodation, Hospital Booking, Edumpus Learning]
+2025-02-28 12:05:38 [main] ERROR tests.SearchTest - Search results are not relevant for keyword: mobile
+2025-02-28 12:05:43 [main] INFO  tests.SearchTest - Starting search test for keyword: python
+2025-02-28 12:05:45 [main] INFO  tests.SearchTest - Search performed for: python
+2025-02-28 12:05:45 [main] INFO  tests.SearchTest - Search Results for 'python': [Sr. Software Developer - Python Django, Python Django Developer Intern]
+2025-02-28 12:05:45 [main] INFO  tests.SearchTest - Test passed for keyword: python
+2025-02-28 12:05:50 [main] INFO  tests.SearchTest - Starting search test for keyword: job
+2025-02-28 12:05:52 [main] INFO  tests.SearchTest - Search performed for: job
+2025-02-28 12:05:52 [main] INFO  tests.SearchTest - Search Results for 'job': [Xcruit, Taskde, Xcruit]
+2025-02-28 12:05:52 [main] ERROR tests.SearchTest - Search results are not relevant for keyword: job
+2025-02-28 12:28:17 [main] INFO  tests.SearchTest - Starting search test for keyword: mobile
+2025-02-28 12:28:19 [main] INFO  tests.SearchTest - Search performed for: mobile
+2025-02-28 12:28:38 [main] INFO  tests.SearchTest - Starting search test for keyword: python
+2025-02-28 12:28:40 [main] INFO  tests.SearchTest - Search performed for: python
+2025-02-28 12:28:58 [main] INFO  tests.SearchTest - Starting search test for keyword: job
+2025-02-28 12:29:00 [main] INFO  tests.SearchTest - Search performed for: job
+2025-02-28 12:31:39 [main] INFO  tests.SearchTest - Starting search test for keyword: mobile
+2025-02-28 12:31:41 [main] INFO  tests.SearchTest - Search performed for: mobile
+2025-02-28 12:31:41 [main] INFO  tests.SearchTest - Search Results for 'mobile': [Edumpus Accommodation]
+2025-02-28 12:31:41 [main] ERROR tests.SearchTest - Search results are NOT relevant for keyword: mobile
+2025-02-28 12:31:46 [main] INFO  tests.SearchTest - Starting search test for keyword: python
+2025-02-28 12:31:48 [main] INFO  tests.SearchTest - Search performed for: python
+2025-02-28 12:32:18 [main] INFO  tests.SearchTest - Search Results for 'python': [Sr. Software Developer - Python Django]
+2025-02-28 12:32:18 [main] INFO  tests.SearchTest - Test PASSED for keyword: python
+2025-02-28 12:32:23 [main] INFO  tests.SearchTest - Starting search test for keyword: job
+2025-02-28 12:32:25 [main] INFO  tests.SearchTest - Search performed for: job
+2025-02-28 12:33:15 [main] INFO  tests.SearchTest - Search Results for 'job': [Xcruit]
+2025-02-28 12:33:15 [main] ERROR tests.SearchTest - Search results are NOT relevant for keyword: job
+2025-02-28 12:35:43 [main] INFO  tests.SearchTest - Starting search test for keyword: mobile
+2025-02-28 12:35:45 [main] INFO  tests.SearchTest - Search performed for: mobile
+2025-02-28 12:36:05 [main] INFO  tests.SearchTest - Starting search test for keyword: python
+2025-02-28 12:36:07 [main] INFO  tests.SearchTest - Search performed for: python
+2025-02-28 12:36:25 [main] INFO  tests.SearchTest - Starting search test for keyword: job
+2025-02-28 12:36:28 [main] INFO  tests.SearchTest - Search performed for: job
+2025-02-28 12:39:52 [main] INFO  tests.SearchTest - === Starting search test for keyword: mobile ===
+2025-02-28 12:39:54 [main] INFO  tests.SearchTest - Search performed for: mobile
+2025-02-28 12:40:09 [main] INFO  tests.SearchTest - === Starting search test for keyword: python ===
+2025-02-28 12:40:11 [main] INFO  tests.SearchTest - Search performed for: python
+2025-02-28 12:40:25 [main] INFO  tests.SearchTest - === Starting search test for keyword: job ===
+2025-02-28 12:40:28 [main] INFO  tests.SearchTest - Search performed for: job
+2025-02-28 12:42:36 [main] INFO  tests.SearchTest - === Starting search test for keyword: mobile ===
+2025-02-28 12:42:39 [main] INFO  tests.SearchTest - Search performed for: mobile
+2025-02-28 12:42:53 [main] INFO  tests.SearchTest - === Starting search test for keyword: python ===
+2025-02-28 12:42:56 [main] INFO  tests.SearchTest - Search performed for: python
+2025-02-28 12:43:10 [main] INFO  tests.SearchTest - === Starting search test for keyword: job ===
+2025-02-28 12:43:12 [main] INFO  tests.SearchTest - Search performed for: job
+2025-02-28 12:47:26 [main] INFO  tests.SearchTest - === Starting search test for keyword: mobile ===
+2025-02-28 12:47:28 [main] INFO  tests.SearchTest - Search performed for: mobile
+2025-02-28 12:47:43 [main] INFO  tests.SearchTest - === Starting search test for keyword: python ===
+2025-02-28 12:47:45 [main] INFO  tests.SearchTest - Search performed for: python
+2025-02-28 12:48:00 [main] INFO  tests.SearchTest - === Starting search test for keyword: job ===
+2025-02-28 12:48:02 [main] INFO  tests.SearchTest - Search performed for: job
+2025-02-28 12:51:05 [main] INFO  tests.SearchTest - === Starting search test for keyword: mobile ===
+2025-02-28 12:51:08 [main] INFO  tests.SearchTest - Search performed for: mobile
+2025-02-28 12:51:22 [main] INFO  tests.SearchTest - === Starting search test for keyword: python ===
+2025-02-28 12:51:24 [main] INFO  tests.SearchTest - Search performed for: python
+2025-02-28 12:51:40 [main] INFO  tests.SearchTest - === Starting search test for keyword: job ===
+2025-02-28 12:51:42 [main] INFO  tests.SearchTest - Search performed for: job
+2025-02-28 12:52:15 [main] INFO  tests.SearchTest - === Starting search test for keyword: mobile ===
+2025-02-28 12:52:17 [main] INFO  tests.SearchTest - Search performed for: mobile
+2025-02-28 12:52:32 [main] INFO  tests.SearchTest - === Starting search test for keyword: python ===
+2025-02-28 12:52:34 [main] INFO  tests.SearchTest - Search performed for: python
