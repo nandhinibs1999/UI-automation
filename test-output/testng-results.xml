@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-28T15:24:07 IST" name="Search Test Suite" finished-at="2025-02-28T15:24:53 IST" duration-ms="46093">
+  <suite started-at="2025-02-28T16:54:33 IST" name="Search Test Suite" finished-at="2025-02-28T16:55:11 IST" duration-ms="37987">
     <groups>
     </groups>
-    <test started-at="2025-02-28T15:24:07 IST" name="Search Functionality Test" finished-at="2025-02-28T15:24:53 IST" duration-ms="46093">
+    <test started-at="2025-02-28T16:54:33 IST" name="Search Functionality Test" finished-at="2025-02-28T16:55:11 IST" duration-ms="37987">
       <class name="tests.SearchTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SearchTest@6b98a075]" started-at="2025-02-28T15:24:07 IST" name="setup" finished-at="2025-02-28T15:24:16 IST" duration-ms="9275" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SearchTest@6b98a075]" started-at="2025-02-28T16:54:33 IST" name="setup" finished-at="2025-02-28T16:54:39 IST" duration-ms="6182" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSearchFunctionality(java.lang.String)[pri:0, instance:tests.SearchTest@6b98a075]" started-at="2025-02-28T15:24:16 IST" name="testSearchFunctionality" data-provider="searchKeywords" finished-at="2025-02-28T15:24:24 IST" duration-ms="7653" status="PASS">
+        <test-method signature="testSearchFunctionality(java.lang.String)[pri:0, instance:tests.SearchTest@6b98a075]" started-at="2025-02-28T16:54:39 IST" name="testSearchFunctionality" data-provider="searchKeywords" finished-at="2025-02-28T16:54:46 IST" duration-ms="6629" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,11 +29,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@6b98a075]" started-at="2025-02-28T15:24:24 IST" name="tearDown" finished-at="2025-02-28T15:24:26 IST" duration-ms="2749" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@6b98a075]" started-at="2025-02-28T16:54:46 IST" name="tearDown" finished-at="2025-02-28T16:54:46 IST" duration-ms="254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SearchTest@6b98a075]" started-at="2025-02-28T15:24:26 IST" name="setup" finished-at="2025-02-28T15:24:29 IST" duration-ms="2290" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SearchTest@6b98a075]" started-at="2025-02-28T16:54:46 IST" name="setup" finished-at="2025-02-28T16:54:50 IST" duration-ms="4551" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSearchFunctionality(java.lang.String)[pri:0, instance:tests.SearchTest@6b98a075]" started-at="2025-02-28T15:24:29 IST" name="testSearchFunctionality" data-provider="searchKeywords" finished-at="2025-02-28T15:24:40 IST" duration-ms="11148" status="PASS">
+        <test-method signature="testSearchFunctionality(java.lang.String)[pri:0, instance:tests.SearchTest@6b98a075]" started-at="2025-02-28T16:54:50 IST" name="testSearchFunctionality" data-provider="searchKeywords" finished-at="2025-02-28T16:54:57 IST" duration-ms="6543" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,11 +55,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@6b98a075]" started-at="2025-02-28T15:24:40 IST" name="tearDown" finished-at="2025-02-28T15:24:41 IST" duration-ms="550" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@6b98a075]" started-at="2025-02-28T16:54:57 IST" name="tearDown" finished-at="2025-02-28T16:54:57 IST" duration-ms="220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SearchTest@6b98a075]" started-at="2025-02-28T15:24:41 IST" name="setup" finished-at="2025-02-28T15:24:43 IST" duration-ms="2182" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.SearchTest@6b98a075]" started-at="2025-02-28T16:54:57 IST" name="setup" finished-at="2025-02-28T16:55:03 IST" duration-ms="5297" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,7 +70,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSearchFunctionality(java.lang.String)[pri:0, instance:tests.SearchTest@6b98a075]" started-at="2025-02-28T15:24:43 IST" name="testSearchFunctionality" data-provider="searchKeywords" finished-at="2025-02-28T15:24:52 IST" duration-ms="9602" status="PASS">
+        <test-method signature="testSearchFunctionality(java.lang.String)[pri:0, instance:tests.SearchTest@6b98a075]" started-at="2025-02-28T16:55:03 IST" name="testSearchFunctionality" data-provider="searchKeywords" finished-at="2025-02-28T16:55:09 IST" duration-ms="6524" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,7 +81,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@6b98a075]" started-at="2025-02-28T15:24:52 IST" name="tearDown" finished-at="2025-02-28T15:24:53 IST" duration-ms="457" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@6b98a075]" started-at="2025-02-28T16:55:09 IST" name="tearDown" finished-at="2025-02-28T16:55:11 IST" duration-ms="1725" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

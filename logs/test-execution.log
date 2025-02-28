@@ -137,3 +137,15 @@
 2025-02-28 15:24:52 [main] INFO  tests.SearchTest - Search performed for: job
 2025-02-28 15:24:52 [main] INFO  tests.SearchTest - ✅ First Search Result: Xcruit
 2025-02-28 15:24:52 [main] INFO  tests.SearchTest - ✅ Second Search Result: Taskde
+2025-02-28 16:54:39 [main] INFO  tests.SearchTest - === Starting search test for keyword: mobile ===
+2025-02-28 16:54:46 [main] INFO  tests.SearchTest - Search performed for: mobile
+2025-02-28 16:54:46 [main] INFO  tests.SearchTest - ✅ First Search Result: Edumpus Accommodation
+2025-02-28 16:54:46 [main] INFO  tests.SearchTest - ✅ Second Search Result: Hospital Booking
+2025-02-28 16:54:50 [main] INFO  tests.SearchTest - === Starting search test for keyword: python ===
+2025-02-28 16:54:57 [main] INFO  tests.SearchTest - Search performed for: python
+2025-02-28 16:54:57 [main] INFO  tests.SearchTest - ✅ First Search Result: Sr. Software Developer - Python Django
+2025-02-28 16:54:57 [main] INFO  tests.SearchTest - ✅ Second Search Result: Python Django Developer Intern
+2025-02-28 16:55:03 [main] INFO  tests.SearchTest - === Starting search test for keyword: job ===
+2025-02-28 16:55:09 [main] INFO  tests.SearchTest - Search performed for: job
+2025-02-28 16:55:09 [main] INFO  tests.SearchTest - ✅ First Search Result: Xcruit
+2025-02-28 16:55:09 [main] INFO  tests.SearchTest - ✅ Second Search Result: Taskde
