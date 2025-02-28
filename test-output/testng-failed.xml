@@ -5,9 +5,8 @@
     <classes>
       <class name="tests.SearchTest">
         <methods>
-          <include name="testSearchFunctionality" invocation-numbers="0 1"/>
+          <include name="testSearchFunctionality" invocation-numbers="0 1 2"/>
           <include name="setup"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- tests.SearchTest -->
     </classes>
