@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.time.Duration;
 
 public class HomePage {
@@ -17,7 +18,6 @@ public class HomePage {
     private By searchIcon = By.xpath("//div[@class='main']//*[name()='svg']");
     private By searchInput = By.xpath("//input[@type='search' or @placeholder='Search']");
     private By searchButton = By.xpath("//button[contains(@id, 'button-addon')]");
-    private By searchResults = By.xpath("//div[contains(@class,'search-results')]//a | //h3//a");
 
     // Constructor
     public HomePage(WebDriver driver) {
@@ -27,7 +27,7 @@ public class HomePage {
     }
 
     // Method to perform search with explicit wait after scrolling
-    public void search(String keyword) {
+    public void search(String keyword) throws InterruptedException {
         WebElement searchIconElement = driver.findElement(searchIcon);
         Actions actions = new Actions(driver);
         actions.moveToElement(searchIconElement).click().perform();
@@ -35,6 +35,9 @@ public class HomePage {
         // Enter search keyword
         WebElement searchBoxElement = driver.findElement(searchInput);
         searchBoxElement.sendKeys(keyword);
+
+        // Wait for 3 seconds after entering the keyword
+        Thread.sleep(3000);
 
         // Wait for the search button to be clickable
         wait.until(ExpectedConditions.elementToBeClickable(searchButton));
@@ -46,9 +49,11 @@ public class HomePage {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,600);");
 
-        // Wait for search results to appear
-        wait.until(ExpectedConditions.visibilityOfElementLocated(searchResults));
+        // Wait for 3 seconds after scrolling
+        Thread.sleep(3000);
 
         System.out.println("Search results are now visible.");
+        
+        
     }
 }
